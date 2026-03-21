@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candice Clothings | Elite Male Curations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">CANDICE CLOTHINGS</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#collections">The Vault</a></li>
+            <li><a href="https://www.instagram.com/candy_clothing_s" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>THE ELITE VAULT</h1>
+            <p>Premium Sneakers • Matured Apparel • Designer Accessories</p>
+            <a href="#collections" class="cta-btn">View Today's Drops</a>
+        </div>
+    </section>
+
+    <section id="collections" class="shop-section">
+        <h2 class="section-title">New Arrivals</h2>
+        
+        <div class="grid">
+            <div class="item-card">
+                <div class="badge">HYPE</div>
+                <img src="https://i.postimg.cc/nXjB59TS/681eb93e-2809-4e29-8e80-e56e9effc047.jpg" alt="Featured Nike">
+                <div class="info">
+                    <h3>NIKE SHOX R4</h3>
+                    <p class="price">₦70,000</p>
+                    <button onclick="sendToWhatsApp('Nike Shox R4', '70,000')">Order on WhatsApp</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <div class="badge">TRENDING</div>
+                <img src="https://i.postimg.cc/JsDZgHKd/681eb93e-2809-4e29-8e80-e56e9effc047.jpg" alt="Kobe Bryant AF1">
+                <div class="info">
+                    <h3>KOBE BRYANT x NIKE AF1</h3>
+                    <p class="price">₦65,000</p>
+                    <button onclick="sendToWhatsApp('Kobe AF1 Black', '65,000')">Order on WhatsApp</button>
+                </div>
+            </div>
+
+            <div id="dynamic-items" style="display: contents;"></div>
+        </div>
+    </section>
+
+    <a href="#" onclick="generalChat()" class="float-wa">
+        <i class="fab fa-whatsapp"></i>
+        <span>Chat with Candice</span>
+    </a>
+
+    <footer>
+        <div class="footer-content">
+            <h3>CANDICE CLOTHINGS</h3>
+            <p>📧 Candyclothing2020@gmail.com</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/candy_clothing_s" target="_blank"><i class="fab fa-instagram"></i> Follow @candy_clothing_s</a>
+            </div>
+            <p class="location">Lagos, Nigeria | Nationwide Delivery</p>
+        </div>
+    </footer>
+
+    <script src="Script.JS"></script>
+</body>
+</html>
