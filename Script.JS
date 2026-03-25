@@ -21,7 +21,7 @@ async function loadProducts() {
                     <img src="${item.image}" alt="${item.name}">
                     <div class="info">
                         <h3>${item.name.toUpperCase()}</h3>
-                        <p class="price">₦${Number(item.price}. toLocalString()}</p>
+                        <p class="price">₦${Number(item.price). toLocalString()}</p>
                         <button onclick="sendToWhatsApp('${item.name}', '${item.price}')">Order on WhatsApp</button>
                     </div>
                 </div>`;
